@@ -1,0 +1,40 @@
+.Nav {
+    background-color: #f9bd0e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+}
+
+.NavTitleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.NavTitle {
+    color: #165294;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 
+    1px 1px 0 white,
+    1px 1px 0 white,
+    1px 1px 0 white,
+    1px 1px 0 white;
+    font-size: 60px;
+
+}
+
+.NavImg {
+    margin-left:2rem;
+    margin-right: 2rem;
+    width: 100px;
+    height: 100px;
+}
+
+.NavSearchBarContainer {
+    padding-right: 166px;
+}

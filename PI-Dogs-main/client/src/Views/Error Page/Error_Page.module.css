@@ -1,0 +1,59 @@
+@keyframes glowing {
+    0% {
+      text-shadow: 0 0 5px rgb(255, 0, 0); /* Color y tamaño del resplandor */
+    }
+    50% {
+      text-shadow: none; /* Sin resplandor */
+    }
+    100% {
+      text-shadow: 0 0 5px rgb(255, 0, 0); /* Color y tamaño del resplandor */
+    }
+  }
+.ErrorPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.ErrorHomeButton {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #165294;
+    background-color: #fadacb;
+    transition: 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.ErrorHomeButton:hover {
+    color: white;
+    background-color: #165294;
+    transform: scale(1.1);
+}
+
+.ErrorPage {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ErrorImage {
+    height: 80%;
+    border-radius: 10px;
+}
+
+.ErrorPageText {
+    font-size: 50px;
+    color: #165294;
+    margin-right: 30px;
+    animation: glowing 2s infinite;
+}

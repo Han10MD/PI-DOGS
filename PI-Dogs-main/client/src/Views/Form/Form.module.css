@@ -1,0 +1,109 @@
+.FormContainer {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.FormDiv {
+    background-color: white;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.BackButtonContainer {
+    background-color: #165294;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.BackButton {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.FormTitleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 15vh;
+    width: 30vw;
+    background-color: #007f33;
+    
+}
+
+.FormTitle {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.FormImage {
+    height: 100%;
+    margin-right: 2rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.FormLabel {
+    font-size: 1.3rem;
+    color: #165294;
+    font-weight: bold;
+}
+
+.FormInput {
+    font-size: 1.3rem;
+    height: 1rem;
+    width: 20rem;
+    margin-top: 5px;
+}
+
+.FormError {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.FormButton {
+    background: none;
+    background-color: #f9bd0e;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s;
+
+}
+
+.FormButton:hover {
+    background-color: #165294;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.FormResetButton {
+    background: none;
+    background-color: #165294;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.FormResetButton:hover {
+    background-color: #f90e0e;
+    transform: scale(1.1);
+    cursor: pointer;
+}

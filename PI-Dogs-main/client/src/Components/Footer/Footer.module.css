@@ -1,0 +1,51 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; 
+    width: 100vw;
+    background-color: #165294;
+
+    bottom:0;
+}
+
+.FooterTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.FooterText {
+    color: white;
+    font-size: 22px;
+}
+
+.FooterLinksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.GitLinkDiv {
+    padding-bottom: 10px;
+}
+
+.LinkedInLinkDiv {
+    padding-top: 10px;
+}
+
+.GitLink {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.LinkedInLink {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}

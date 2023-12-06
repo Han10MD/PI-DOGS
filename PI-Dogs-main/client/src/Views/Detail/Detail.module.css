@@ -1,0 +1,73 @@
+.DetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.GoBackButton {
+    text-decoration: none;
+    color: #165294;
+    background-color: #fadacb;
+    font-size: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.3s all;
+}
+
+.GoBackButton:hover {
+    text-shadow: #ffffff 2px 2px 2px;
+}
+
+.DogImage {
+    width: 50rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+.DogDetailContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 80%;
+    background-color: #fadacb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.DogInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    color: #165294;
+}
+
+.DogName {
+    font-size: 3rem;
+    margin: 10px 0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.DogText {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.LoadingContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
