@@ -6,9 +6,12 @@ const URL = "https://api.thedogapi.com/v1/breeds/";
 const getAllDogs = async () => {
     const response = await axios(`${URL}?api_key=${API_KEY}`);
     const apiDogs = response.data.map((dog) => {
+        if (dog.reference_image_id === 'B12uzg9V7' || dog.reference_image_id === '_Qf9nfRzL' || dog.reference_image_id === 'HkC31gcNm') {
+            dog.reference_image_id = 'H1oLMe94m';
+        }
         return {
             id: dog.id,
-            image: dog.image?.url,
+            image: `https://cdn2.thedogapi.com/images/${dog?.reference_image_id}.jpg`,
             name: dog.name,
             height: dog.height?.metric,
             weight: dog.weight?.metric,

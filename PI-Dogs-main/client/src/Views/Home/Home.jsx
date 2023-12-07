@@ -88,6 +88,10 @@ const Home = () => {
                     <NavLink to="/create" className={styles.CreateButton}>
                         Create Dog
                     </NavLink>
+                    
+                    <NavLink to="/game" className={styles.GameButton}>
+                        Play Game
+                    </NavLink>
                 </div>
             </div>
             

@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBar from "../SearchBar/SearchBar";
 import styles from "./Nav.module.css";
-import perroCircular from "../Img/hero-profile-dog.png"
+import perroCircular from "../Img/ChemsPerfil.png"
 
 const NavBar = () => {
     return (

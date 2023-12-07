@@ -10,7 +10,7 @@
 }
 
 .FormDiv {
-    background-color: white;
+    background-color: rgb(173, 173, 173);
     height: 100vh;
     border: 1px solid black;
     border-radius: 10px;
@@ -18,7 +18,7 @@
 }
 
 .BackButtonContainer {
-    background-color: #165294;
+    background-color: #681694;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -62,7 +62,7 @@
 
 .FormLabel {
     font-size: 1.3rem;
-    color: #165294;
+    color: #000000;
     font-weight: bold;
 }
 

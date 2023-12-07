@@ -22,7 +22,7 @@
     border: 1px solid #165294;
     background: none;
     border-left: none;
-    background-color: white;
+    background-color: rgb(231, 0, 0);
 }
 
 .SearchBarButton:hover {

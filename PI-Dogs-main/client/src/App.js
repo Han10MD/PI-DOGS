@@ -10,6 +10,7 @@ import Form from './Views/Form/Form.jsx';
 import { Landing } from './Views/Landing Page/Landing_Page.jsx';
 import { ErrorPage } from './Views/Error Page/Error_Page.jsx';
 import { DogDetail } from './Views/Detail/Detail';
+import Game from './Views/Game/Game.jsx';
 
 import { getAllDogs, getAllTemps } from './Redux/actions';
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/detail/:id" element={<DogDetail />} />
         <Route path="/create" element={<Form />} />
+        <Route path="/game" element={<Game />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       {location.pathname !== '/' && <Footer />}

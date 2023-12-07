@@ -10,10 +10,10 @@ const Footer = () => {
             </div>
             <div className={styles.FooterLinksContainer}>
                 <div className={styles.GitLinkDiv}>
-                    <NavLink to="https://github.com/Argiiasd" target="_blank" className={styles.GitLink}>GitHub</NavLink>
+                    <NavLink to="https://github.com/Han10MD" target="_blank" className={styles.GitLink}>GitHub</NavLink>
                 </div>
                 <div className={styles.LinkedInLinkDiv}>
-                    <NavLink to="https://www.linkedin.com/in/mateo-jeremias-pg/" target="_blank" className={styles.LinkedInLink}>LinkedIn</NavLink>
+                    <NavLink to="https://www.linkedin.com/in/milton-delgado-92375127b/" target="_blank" className={styles.LinkedInLink}>LinkedIn</NavLink>
                 </div>
             </div>
         </footer>

@@ -11,7 +11,7 @@
 
 .HomeTitleContainer{
     display: flex;
-    background-color: #FDCD07;
+    background-color: rgb(81, 0, 128);
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -21,7 +21,7 @@
 }
 
 .HomeTitle{
-    color: #FCFCFC;
+    color: #ffffff;
     text-shadow: #FCFCFC 0px 0px 2px;
 }
 
@@ -85,6 +85,27 @@
 }
 
 .CreateButton:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #165294;
+    border: 2px solid #165294;
+}
+
+.GameButton{
+    text-decoration: none;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #FCFCFC;
+    font-size: 17px;
+    color: #165294;
+    font-weight: bold;
+    background-color: #FCFCFC;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    transition: border 0.3s ease;
+}
+
+.GameButton:hover {
     cursor: pointer;
     color: #ffffff;
     background-color: #165294;

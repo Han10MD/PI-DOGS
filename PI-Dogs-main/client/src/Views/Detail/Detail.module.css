@@ -9,8 +9,8 @@
 
 .GoBackButton {
     text-decoration: none;
-    color: #165294;
-    background-color: #fadacb;
+    color: #ffffff;
+    background-color: rgb(81, 0, 128);
     font-size: 30px;
     padding-left: 70px;
     padding-right: 70px;
@@ -36,7 +36,7 @@
     justify-content: center;
     width: 70%;
     height: 80%;
-    background-color: #fadacb;
+    background-color: rgb(81, 0, 128);
     padding: 20px;
     border-radius: 10px;
 }
@@ -46,7 +46,7 @@
     flex-direction: column;
     width: 50%;
     height: 100%;
-    color: #165294;
+    color: #ffffff;
 }
 
 .DogName {
